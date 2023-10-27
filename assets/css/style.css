@@ -16,13 +16,48 @@ body {
     flex-direction: column;
     /* Need to confirm text colour */
     font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
 
 /* Header */
 header {
-    background-color: lightgreen;
+    background-color: #ffffff;
+    padding: 1rem 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#logo-wrapper {
+    font-size: 80%;
+    text-align: center;
+    padding: 0 0 .75rem;
+}
+
+#slogan-wrapper {
+    font-size: 90%;
+    text-align: center;
+    padding: 0 0 .5rem;
+}
+
+#menu {
+    font-size: 90%;
+    letter-spacing: 1px;
+    list-style-type: none;
+}
+
+#menu li {
+    margin-bottom: .75em;
+}
+
+.active {
+    border-bottom: 1px solid;
+}
 /* Main content */
 main {
     background-color: orange;
