@@ -1,5 +1,4 @@
 /* Import Google fonts */
-/* Rules: font-family: 'Montserrat', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 /* Wildcard slector to override browser default styles  */
@@ -34,7 +33,7 @@ header a {
 }
 
 #logo-wrapper {
-    font-size: 70%;   
+    font-size: 70%;
     text-align: center;
     padding: 0 0 .75rem;
 }
@@ -73,6 +72,7 @@ main {
     background-color: orange;
     /* Ensure main content takes up any surplus space to push footer down */
     flex: 1 0 auto;
+    margin-top: 105px;
 }
 
 /* Footer */
