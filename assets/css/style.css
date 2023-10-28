@@ -19,7 +19,7 @@ body {
 }
 
 p {
-    line-height: 1.5em;
+    line-height: 1.8em;
 }
 
 /* Header */
@@ -66,13 +66,17 @@ main {
     background-color: orange;
     /* Ensure main content takes up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 105px;
+    margin-top: 111.73px;
+    /* NOTE Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
 }
 
 /* Footer */
 footer {
     background-color: #ffffff;
     padding: .75rem;
+    
 }
 
 /* Footer */
