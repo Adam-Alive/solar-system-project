@@ -115,6 +115,11 @@ footer {
     main {
         margin-top: 126px;
     }
+
+    /* Footer */
+    #social-networks i {
+        font-size: 140%;
+    }
     
 }
 
