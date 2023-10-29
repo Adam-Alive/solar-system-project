@@ -19,7 +19,7 @@ body {
 
 section {
     padding: 20px;
-}
+    }
 
 p {
     line-height: 1.8em;
@@ -96,13 +96,17 @@ main {
 #intro-1 {
 
 }
+
 img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
+    height: 70%;
+    width: 70%;    
 }
 
-#spaceship-interior {    
+.image-div {
+    text-align: center;
+}
+
+#spaceship-interior {
 
 }
 
