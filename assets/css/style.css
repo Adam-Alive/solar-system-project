@@ -189,6 +189,7 @@ footer {
         height: 250px;
     }
 
+/* NOTE Need to adjust all section elements for tablets and larger screens */
 /* Footer */
     #social-networks i {
         font-size: 140%;
