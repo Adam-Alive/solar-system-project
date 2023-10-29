@@ -63,13 +63,19 @@ header a {
 
 /* Main content */
 main {
-    background-color: orange;
     /* Ensure main content takes up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 111.73px;
     /* NOTE Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
+}
+
+/* Hero section */
+#hero {
+    height: 150px;
+    width: 100%;
+    background: url("../images/hero-image-m.webp") no-repeat center center/cover;
 }
 
 /* Footer */
@@ -117,7 +123,7 @@ footer {
 /* Tablets and larger (768px and higher) */
 @media screen and (min-width: 768px) {
 
-    /* Header */
+/* Header */
     #logo-wrapper {
         font-size: 100%;
         text-align: center;
@@ -138,22 +144,34 @@ footer {
         justify-content: space-evenly;
     }
 
-    /* Main content */
+/* Main content */
     main {
-        margin-top: 126px;
+        margin-top: 135.8px;
     }
 
-    /* Footer */
+/* Hero section */
+    #hero {
+        height: 250px;
+    }
+
+/* Footer */
     #social-networks i {
         font-size: 140%;
     }
-   
+
 }
 
 /* Large devices (laptops and desktops 992px and higher) */
 @media screen and (min-width: 992px) {
+
+/* Header */
 #nav-menu a:hover {
     border-bottom: 1px solid;
+}
+
+/* Hero section */
+#hero {
+    height: 560px;
 }
 /* NOTE - need to adjust navigation text width for large devices */
 }
