@@ -15,11 +15,21 @@ body {
     flex-direction: column;
     /* Need to confirm text colour */
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+}
+
+section {
+    padding: 20px;
 }
 
 p {
     line-height: 1.8em;
+    font-weight: 600;    
+}
+
+section p {
+    font-size: 80%;
+    padding: 10px 0 10px 0;
+
 }
 
 /* Header */
@@ -79,7 +89,7 @@ main {
 }
 
 /* Intro section */
-#intro{
+#intro {
 
 }
 
