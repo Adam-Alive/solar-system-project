@@ -91,11 +91,11 @@ main {
 /* Cruises Intro section */
 img {
     height: 70%;
-    width: 70%;    
-}
+    width: 75%;
+    }
 
 .image-div {
-    text-align: center;
+    text-align: center; 
 }
 
 /* Deals page */
