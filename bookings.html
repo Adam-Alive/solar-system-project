@@ -45,13 +45,17 @@
 
         <!-- Bookings section -->
         <section id="bookings-form">
-            <div id="bookings-form-1">
-                <h3>Bookings Form</h3>
-            </div>
-            <div id="bookings-form-2">
-                PLACE HOLDER FOR FORM INPUT DATA
-                
-            </div>
+            <h3>Bookings Form</h3>
+            <div class=bookings-form-container>
+                <form action="https://formdump.codeinstitute.net" method="POST" class="bookings-form">
+                    <input type="text" name="first-name" id="first-name" placeholder="First Name" required>
+                    <input type="text" name="last-name" id="last-name" placeholder="Last Name" required>
+                    <input type="email" name="email" id="email" placeholder="Email Address" required>
+                    <input type="number" name="phone-number" id="phone-number" placeholder="Phone" required>
+                    <input type="date" name="date" id="date" placeholder="Date of departure" required>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>        
         </section>
 
     </main>
