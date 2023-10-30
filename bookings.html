@@ -51,7 +51,16 @@
                     <input type="text" name="first-name" id="first-name" placeholder="First Name" required>
                     <input type="text" name="last-name" id="last-name" placeholder="Last Name" required>
                     <input type="email" name="email" id="email" placeholder="Email Address" required>
-                    <input type="number" name="phone-number" id="phone-number" placeholder="Phone" required>                    
+                    <input type="number" name="phone-number" id="phone-number" placeholder="Phone" required>                      
+                    <label for="passenger-numbers">No. Passengers</label>
+                    <select id="passenger-numbers" name="passenger-numbers" required>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6 or more">6 or more</option>
+                    </select>                  
                     <p>Cruise Type</p>
                     <input id="inner-planets-cruise" type="radio" name="cruise-type" value="inner-planets-cruise" checked>
                     <label for="inner-planets-cruise">Inner Planets</label>
@@ -69,7 +78,7 @@
                     <input type="date" name="date" id="date" placeholder="Date of departure" required>
                     <p>Region of Departure</p>
                     <input id="africa" type="radio" name="region" value="africa" checked>
-                    <label for="africa">Africa</label>
+                    <label for="africa">Africa</label
                     <input id="asia" type="radio" name="region" value="asia">
                     <label for="asia">Asia</label>
                     <input id="australasia" type="radio" name="region" value="australasia">
@@ -79,8 +88,8 @@
                     <input id="north-america" type="radio" name="region" value="north-america">
                     <label for="north-america">North America</label>
                     <input id="south-america" type="radio" name="region" value="south-america">
-                    <label for="south-america">South America</label>
-                    <textarea id="comments" name="comments" rows="10" cols="50" placeholder="Additional questions or comments"></textarea>
+                    <label for="south-america">South America</label>                    
+                    <textarea id="comments" name="comments" rows="10" cols="50" placeholder="Additional questions or comments"></textarea>                    
                     <input type="submit" value="Submit">
 
 
