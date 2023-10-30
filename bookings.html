@@ -52,8 +52,15 @@
                     <input type="text" name="last-name" id="last-name" placeholder="Last Name" required>
                     <input type="email" name="email" id="email" placeholder="Email Address" required>
                     <input type="number" name="phone-number" id="phone-number" placeholder="Phone" required>
-                    <input type="date" name="date" id="date" placeholder="Date of departure" required>                    
-                    <p>Booking Type</p>
+                    <input type="date" name="date" id="date" placeholder="Date of departure" required> 
+                    <p>Cruise Type</p>
+                    <input id="inner-planets-cruise" type="radio" name="cruise-type" value="inner-planets-cruise" checked>
+                    <label for=" inner-planets-cruise ">Inner Planets</label>
+                    <input id="outer-planets-cruise" type="radio" name="cruise-type" value="outer-planets-cruise">
+                    <label for="outer-planets-cruise">Outer Planets</label>
+                    <input id="solar-system" type="radio" name="cruise-type" value="solar-system">
+                    <label for="solar-system">Solar System</label>                   
+                    <p>Deal Type</p>
                     <input id="standard" type="radio" name="booking-type" value="standard" checked>
                     <label for="standard">Standard</label>
                     <input id="premier" type="radio" name="booking-type" value="premier">
