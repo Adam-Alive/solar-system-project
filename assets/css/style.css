@@ -98,6 +98,18 @@ img {
     text-align: center;
 }
 
+/* Deals page */
+/* Prices section */
+tr {
+    font-size: 75%;
+    font-weight: 600;
+   }
+
+   th, td {
+       border: 1px solid black;
+       padding: 5px;
+   }
+
 /* Footer */
 footer {
     background-color: #ffffff;
