@@ -19,6 +19,7 @@ body {
 header {
     background-color: #ffffff;
     padding: .75rem;
+    position: fixed;
     z-index: 99;
     width: 100%;
 }
@@ -34,11 +35,12 @@ header a {
     padding: 0 0 .75rem;
 }
 
-#nav-menu {
+#menu {
     font-size: 72%;
     font-weight: 600;
     display: flex;
     justify-content: space-evenly;
+    list-style-type: none;
 }
 
 .active {
@@ -48,6 +50,7 @@ header a {
 /* Main content */
 main {
     /* Ensure main content takes up any surplus space to push footer down */
+    padding-top: 79px;
     flex: 1 0 auto;
     }
 
@@ -157,7 +160,7 @@ footer {
         padding: 0 0 .75rem;
     }
 
-      #nav-menu {
+      #menu {
         font-size: 100%;
         font-weight: 600;
         display: flex;
@@ -165,9 +168,9 @@ footer {
     }
 
 /* Main content */
-    /* main {
-
-    } */
+    main {
+        padding-top: 94px;
+    }
 
 /* Hero section */
     #hero {
@@ -186,7 +189,7 @@ footer {
 @media screen and (min-width: 992px) {
 
 /* Header */
-#nav-menu a:hover {
+#menu a:hover {
     border-bottom: 1px solid;
 }
 
