@@ -49,21 +49,23 @@ header a {
 main {
     /* Ensure main content takes up any surplus space to push footer down */
     flex: 1 0 auto;
-    /* NOTE Enable flex properties for child elements */
-    display: flex;
-    flex-direction: column;
-}
+    }
 
 /* Hero section */
 #hero {
     height: 160px;
     width: 100%;
     background: url("../images/hero-image-m.webp") no-repeat center center/cover;
+    padding: 0;
 }
 
-#hero>div {
+#hero-text {
     color: white;
-    font-size: .60em;    
+    font-size: .60em;
+    background-color: rgba(192, 107, 241, 0.6);
+    padding: 4px;
+    text-align: center;
+    letter-spacing: 1px;   
 }
 
 section {
