@@ -15,26 +15,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-section {
-    padding: 20px;
-    }
-
-p {
-    line-height: 1.8em;
-    font-weight: 600;    
-}
-
-section p {
-    font-size: 80%;
-    padding: 10px 0 10px 0;
-
-}
-
 /* Header */
 header {
     background-color: #ffffff;
     padding: .75rem;
-    /* position: fixed; */
     z-index: 99;
     width: 100%;
 }
@@ -45,14 +29,7 @@ header a {
 }
 
 #logo-wrapper {
-    font-size: 70%;
-    text-align: center;
-    padding: 0 0 .75rem;
-}
-
-#slogan-wrapper {
-    font-size: 72%;
-    font-weight: 600;
+    font-size: .75em;
     text-align: center;
     padding: 0 0 .75rem;
 }
@@ -62,7 +39,6 @@ header a {
     font-weight: 600;
     display: flex;
     justify-content: space-evenly;
-
 }
 
 .active {
@@ -80,9 +56,29 @@ main {
 
 /* Hero section */
 #hero {
-    height: 150px;
+    height: 160px;
     width: 100%;
     background: url("../images/hero-image-m.webp") no-repeat center center/cover;
+}
+
+#hero>div {
+    color: white;
+    font-size: .60em;    
+}
+
+section {
+    padding: 20px;
+}
+
+p {
+    line-height: 1.8em;
+    font-weight: 600;
+}
+
+section p {
+    font-size: 80%;
+    padding: 10px 0 10px 0;
+
 }
 
 /* Cruises Intro section */
@@ -159,14 +155,7 @@ footer {
         padding: 0 0 .75rem;
     }
 
-    #slogan-wrapper {
-        font-size: 100%;
-        font-weight: 600;
-        text-align: center;
-        padding: 0 0 .75rem;
-    }
-
-    #nav-menu {
+      #nav-menu {
         font-size: 100%;
         font-weight: 600;
         display: flex;
