@@ -62,38 +62,30 @@
                         <option value="5">5</option>
                         <option value="6 or more">6 or more</option>
                     </select>                  
-                    <p>Cruise Type</p>
-                    <input id="inner-planets-cruise" type="radio" name="cruise-type" value="inner-planets-cruise" checked>
-                    <label for="inner-planets-cruise">Inner Planets</label>
-                    <input id="outer-planets-cruise" type="radio" name="cruise-type" value="outer-planets-cruise">
-                    <label for="outer-planets-cruise">Outer Planets</label>
-                    <input id="solar-system" type="radio" name="cruise-type" value="solar-system">
-                    <label for="solar-system">Solar System</label>                   
-                    <p>Deal Type</p>
-                    <input id="standard" type="radio" name="booking-type" value="standard" checked>
-                    <label for="standard">Standard</label>
-                    <input id="premier" type="radio" name="booking-type" value="premier">
-                    <label for="premier">Premier</label>
-                    <input id="supernova" type="radio" name="booking-type" value="supernova">
-                    <label for="supernova">Supernova</label>
+                    <label for="cruise-type">Cruise Type</label>
+                    <select id="cruise-type" name="cruise-type" required>
+                        <option value="Inner Planets">Inner Planets</option>
+                        <option value="Outer Planets">Outer Planets</option>
+                        <option value="Solar System">Solar System</option>                    
+                    </select>
+                    <label for="deal-type">Deal Type</label>
+                    <select id="deal-type" name="deal-type" required>
+                        <option value="standard">Standard</option>
+                        <option value="premier">Premier</option>
+                        <option value="supernova">Supernova</option>                    
+                    </select>                    
                     <label for="date">Date of Departure</label><input type="date" name="date" id="date" placeholder="Date of departure" required>
-                    <p>Region of Departure</p>
-                    <input id="africa" type="radio" name="region" value="africa" checked>
-                    <label for="africa">Africa</label
-                    <input id="asia" type="radio" name="region" value="asia">
-                    <label for="asia">Asia</label>
-                    <input id="australasia" type="radio" name="region" value="australasia">
-                    <label for="australasia">Australasia </label>
-                    <input id="europe" type="radio" name="region" value="europe">
-                    <label for="europe">Europe </label>
-                    <input id="north-america" type="radio" name="region" value="north-america">
-                    <label for="north-america">North America</label>
-                    <input id="south-america" type="radio" name="region" value="south-america">
-                    <label for="south-america">South America</label>                    
+                    <label for="region">Region of Departure</label>
+                    <select id="region" name="region" required>
+                        <option value="africa">Africa</option>
+                        <option value="asia">Asia</option>
+                        <option value="australasia">Australasia</option>
+                        <option value="europe">Europe</option>
+                        <option value="north-america">North America</option>
+                        <option value="south-america">South America</option>
+                    </select>                                     
                     <textarea id="comments" name="comments" rows="10" cols="50" placeholder="Additional questions or comments"></textarea>                    
                     <input type="submit" value="Submit">
-
-
                 </form>
             </div>        
         </section>
