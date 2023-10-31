@@ -11,9 +11,7 @@
 /* General styles */
 body {
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    /* Need to confirm text colour */
+/* Need to confirm text colour */
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -36,7 +34,7 @@ section p {
 header {
     background-color: #ffffff;
     padding: .75rem;
-    position: fixed;
+    /* position: fixed; */
     z-index: 99;
     width: 100%;
 }
@@ -75,7 +73,6 @@ header a {
 main {
     /* Ensure main content takes up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 111.73px;
     /* NOTE Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
@@ -177,9 +174,9 @@ footer {
     }
 
 /* Main content */
-    main {
-        margin-top: 135.8px;
-    }
+    /* main {
+
+    } */
 
 /* Hero section */
     #hero {
