@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Meta tags for search engine -->
-    <meta name="description" content="Solar System Cruises is a space tavel agency providing luxury cruises across the solar system since 2125.">
+    <meta name="description" content="Solar System Cruises is a space travel agency providing luxury cruises across the solar system since 2125.">
     <meta name="keywords" content="Solar System Cruises, space travel, space tourism, solar system, planets, luxury cruises, trip of a lifetime">
     <!-- Page title -->
     <title>Solar System Cruises</title>
@@ -45,9 +45,8 @@
         </section>
 
         <!-- Bookings section -->
-        <section id="bookings-form">
-            <h3>Bookings Form</h3>
-            <div id="bookings-form-background">
+        <section id="bookings-form-background">
+            <h3>Bookings Form</h3>            
                 <form action="https://formdump.codeinstitute.net" target="_blank" method="POST">
                     <input type="text" name="first-name" id="first-name" placeholder="First Name" class="text-input" required>
                     <input type="text" name="last-name" id="last-name" placeholder="Last Name" class="text-input" required>
@@ -67,7 +66,7 @@
                     </div>
                     <div class="select-div">
                     <label for="cruise-type" class="select-label">Cruise Type</label>
-                    <select id="cruise-type" name="cruise-type" required>
+                    <select id="cruise-type" name="cruise-type" class="select-input" required>
                         <option value="Inner Planets">Inner Planets</option>
                         <option value="Outer Planets">Outer Planets</option>
                         <option value="Solar System">Solar System</option>                    
@@ -75,18 +74,18 @@
                     </div>
                     <div class="select-div">
                     <label for="deal-type" class="select-label">Deal Type</label>
-                    <select id="deal-type" name="deal-type" required>
+                    <select id="deal-type" name="deal-type" class="select-input" required>
                         <option value="standard">Standard</option>
                         <option value="premier">Premier</option>
                         <option value="supernova">Supernova</option>                    
                     </select>
                     </div>
                     <div class="select-div">
-                    <label for="date" class="select-label">Date of Departure</label><input type="date" name="date" id="date" placeholder="Date of departure" required>                    
+                    <label for="date">Date of Departure</label><input type="date" name="date" id="date" required>               
                     </div>
                     <div class="select-div">
                     <label for="region" class="select-label">Region of Departure</label>
-                    <select id="region" name="region" required>
+                    <select id="region" name="region" class="select-input" required>
                         <option value="africa">Africa</option>
                         <option value="asia">Asia</option>
                         <option value="australasia">Australasia</option>
@@ -95,10 +94,9 @@
                         <option value="south-america">South America</option>                   
                     </select>
                     </div>
-                    <textarea id="comments" name="comments" rows="10" cols="40" placeholder="Additional questions or comments"></textarea>                    
-                    <input type="submit" value="Submit">
-                </form>
-            </div>        
+                    <textarea id="comments" name="comments" rows="10" cols="40" placeholder="Additional questions or comments"></textarea>             
+                    <input type="submit" value="Submit">                    
+                </form>                
         </section>
 
     </main>
@@ -124,7 +122,7 @@
                 <li>
                     <a href="https://www.instagram.com/" target="_blank" rel="noopener"
                         aria-label="Visit our Instagram page (opens in a new tab)">
-                        <i class="fa-brands fa-square-instagram"></i></i></a>
+                        <i class="fa-brands fa-square-instagram"></i></a>
                 </li>
             </ul>
         </div>
