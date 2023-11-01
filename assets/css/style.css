@@ -17,7 +17,8 @@ body {
 
 /* Header */
 header {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
+    background-color: rgb(206, 142, 243);
     padding: .75rem;
     position: fixed;
     z-index: 99;
@@ -110,7 +111,7 @@ tr {
 
 /* Bookings page */
   /* Form */
-#bookings-form-background {
+#form-background {
     background-color: gainsboro;
     margin: 20px 5% 0 5%;
 }
@@ -139,7 +140,8 @@ tr {
 
 /* Footer */
 footer {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
+    background-color: rgb(206, 142, 243);
     padding: .75rem;
     
 }
