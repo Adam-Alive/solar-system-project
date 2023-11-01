@@ -113,7 +113,7 @@ tr {
   /* Form */
 #form-background {
     background-color: gainsboro;
-    margin: 20px 5% 0 5%;
+    /* margin: 20px 5% 0 5%; */
 }
 
 .text-input {
@@ -136,6 +136,16 @@ tr {
         display: flex;
         flex-wrap: wrap;
         margin: 5px 0 10px 5px;
+}
+
+.form-submit {
+    margin-top: 20px;
+    font-size: .8em;
+    font-weight: 600;
+    padding: 8px 18px;
+    background-color: rgb(206, 142, 243);
+    display: block;
+
 }
 
 /* Footer */
