@@ -129,9 +129,15 @@ tr {
     margin: 5px 0 25px 5px;
 }
 
-.select-div {
-    color: red;
+.select-div {    
     margin: 5px 0 10px 5px;
+}
+
+.select-input {
+        font-size: .8em;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 5px 0 10px 5px;
 }
 
 /* Footer */
