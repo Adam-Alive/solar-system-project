@@ -115,9 +115,22 @@ tr {
 }
 #bookings-form-background {
     background-color: gainsboro;
+    margin: 20px 5% 0 5%;
 }
 
 .text-input {
+    margin: 5px 0 10px 5px;
+    
+  }
+
+.select-label {
+    font-size: .8em;
+    font-weight: 600;
+    margin: 5px 0 25px 5px;
+}
+
+.select-div {
+    color: red;
     margin: 5px 0 10px 5px;
 }
 

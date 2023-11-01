@@ -52,8 +52,10 @@
                     <input type="text" name="first-name" id="first-name" placeholder="First Name" class="text-input" required>
                     <input type="text" name="last-name" id="last-name" placeholder="Last Name" class="text-input" required>
                     <input type="email" name="email" id="email" placeholder="Email Address" class="text-input" required>
-                    <input type="number" name="phone-number" id="phone-number" placeholder="Phone" class="text-input" required>                      
-                    <label for="passenger-numbers">No. Passengers</label>
+                    <input type="number" name="phone-number" id="phone-number" placeholder="Phone" class="text-input" required>
+                    <br>
+                    <div class="select-div">              
+                    <label for="passenger-numbers" class="select-label">No. Passengers</label>
                     <select id="passenger-numbers" name="passenger-numbers" required>
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -61,21 +63,29 @@
                         <option value="4">4</option>
                         <option value="5">5</option>
                         <option value="6 or more">6 or more</option>
-                    </select>                  
-                    <label for="cruise-type">Cruise Type</label>
+                    </select>
+                    </div>
+                    <div class="select-div">
+                    <label for="cruise-type" class="select-label">Cruise Type</label>
                     <select id="cruise-type" name="cruise-type" required>
                         <option value="Inner Planets">Inner Planets</option>
                         <option value="Outer Planets">Outer Planets</option>
                         <option value="Solar System">Solar System</option>                    
                     </select>
-                    <label for="deal-type">Deal Type</label>
+                    </div>
+                    <div class="select-div">
+                    <label for="deal-type" class="select-label">Deal Type</label>
                     <select id="deal-type" name="deal-type" required>
                         <option value="standard">Standard</option>
                         <option value="premier">Premier</option>
                         <option value="supernova">Supernova</option>                    
-                    </select>                    
-                    <label for="date">Date of Departure</label><input type="date" name="date" id="date" placeholder="Date of departure" required>
-                    <label for="region">Region of Departure</label>
+                    </select>
+                    </div>
+                    <div class="select-div">
+                    <label for="date" class="select-label">Date of Departure</label><input type="date" name="date" id="date" placeholder="Date of departure" required>                    
+                    </div>
+                    <div class="select-div">
+                    <label for="region" class="select-label">Region of Departure</label>
                     <select id="region" name="region" required>
                         <option value="africa">Africa</option>
                         <option value="asia">Asia</option>
@@ -83,7 +93,8 @@
                         <option value="europe">Europe</option>
                         <option value="north-america">North America</option>
                         <option value="south-america">South America</option>
-                    </select>                                     
+                    </div>
+                    </select>                 
                     <textarea id="comments" name="comments" rows="10" cols="40" placeholder="Additional questions or comments"></textarea>                    
                     <input type="submit" value="Submit">
                 </form>
