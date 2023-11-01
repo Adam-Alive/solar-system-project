@@ -47,12 +47,12 @@
         <!-- Bookings section -->
         <section id="bookings-form">
             <h3>Bookings Form</h3>
-            <div class=bookings-form-container>
-                <form action="https://formdump.codeinstitute.net" target="_blank" method="POST" class="bookings-form">
-                    <input type="text" name="first-name" id="first-name" placeholder="First Name" required>
-                    <input type="text" name="last-name" id="last-name" placeholder="Last Name" required>
-                    <input type="email" name="email" id="email" placeholder="Email Address" required>
-                    <input type="number" name="phone-number" id="phone-number" placeholder="Phone" required>                      
+            <div id="bookings-form-background">
+                <form action="https://formdump.codeinstitute.net" target="_blank" method="POST">
+                    <input type="text" name="first-name" id="first-name" placeholder="First Name" class="text-input" required>
+                    <input type="text" name="last-name" id="last-name" placeholder="Last Name" class="text-input" required>
+                    <input type="email" name="email" id="email" placeholder="Email Address" class="text-input" required>
+                    <input type="number" name="phone-number" id="phone-number" placeholder="Phone" class="text-input" required>                      
                     <label for="passenger-numbers">No. Passengers</label>
                     <select id="passenger-numbers" name="passenger-numbers" required>
                         <option value="1">1</option>
@@ -84,7 +84,7 @@
                         <option value="north-america">North America</option>
                         <option value="south-america">South America</option>
                     </select>                                     
-                    <textarea id="comments" name="comments" rows="10" cols="50" placeholder="Additional questions or comments"></textarea>                    
+                    <textarea id="comments" name="comments" rows="10" cols="40" placeholder="Additional questions or comments"></textarea>                    
                     <input type="submit" value="Submit">
                 </form>
             </div>        

@@ -108,6 +108,19 @@ tr {
        padding: 5px;
    }
 
+/* Bookings page */
+  /* Form */
+#bookings-form {
+    
+}
+#bookings-form-background {
+    background-color: gainsboro;
+}
+
+.text-input {
+    margin: 5px 0 10px 5px;
+}
+
 /* Footer */
 footer {
     background-color: #ffffff;
