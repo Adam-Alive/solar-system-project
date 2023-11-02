@@ -256,7 +256,12 @@ footer {
         height: 250px;
     }
 
-/* NOTE Need to adjust all section elements for tablets and larger screens */
+    #hero-text{
+        font-size: .8em;
+    }
+
+/* Home page */
+
 
 /* Bookings page */
 
