@@ -131,6 +131,7 @@ tr {
   /* Form */
 #form-background {
     background-color: gainsboro;
+    padding: 20px;
     }
 
 .text-input {
