@@ -53,8 +53,7 @@ main {
     /* Ensure main content takes up any surplus space to push footer down */
     padding-top: 79px;
     flex: 1 0 auto;
-    background-color: rgb(206, 142, 243);
-    }
+        }
 
 h3, h4 {
     padding: 0 0 10px;
@@ -260,9 +259,6 @@ footer {
 /* NOTE Need to adjust all section elements for tablets and larger screens */
 
 /* Bookings page */
-main {
-    background-color: rgb(206, 142, 243);
-}
 
 #form-background {
     background-color: gainsboro;
