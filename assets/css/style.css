@@ -17,7 +17,6 @@ body {
 
 /* Header */
 header {
-    /* background-color: #ffffff; */
     background-color: rgb(206, 142, 243);
     padding: .75rem;
     position: fixed;
@@ -55,9 +54,12 @@ main {
     flex: 1 0 auto;
         }
 
+
 h3, h4 {
+    font-size: .97em;
     padding: 0 0 10px;
 }
+
 
 /* Hero section */
 #hero {
@@ -86,7 +88,7 @@ p {
 }
 
 section p {
-    font-size: 80%;
+    font-size: .8em;
     padding: 0 0 10px 0;
     }
 
@@ -281,9 +283,15 @@ footer {
 }
 /* Footer */
     #social-networks i {
-        font-size: 140%;
+    font-size: 140%;
     }
 
+/* Company info */
+#company-info {
+    position: relative;
+    
+    
+}
 }
 
 /* Large devices (laptops and desktops 992px and higher) */
