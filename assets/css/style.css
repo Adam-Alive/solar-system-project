@@ -101,13 +101,17 @@ section p {
 /* Cruises Intro section */
 img {
     height: 75%;
-    width: 80%;
-    
+    width: 80%;   
 }
 
 .image-div {
     text-align: center;
     padding: 5px 0 15px;
+}
+
+.bookings-link{
+    color: blueviolet;
+    text-decoration: none;
 }
 /* Deals page */
 
@@ -265,5 +269,6 @@ footer {
     height: 560px;
 }
 /* NOTE - need to adjust navigation text width for large devices */
+
 }
     
