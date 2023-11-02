@@ -110,10 +110,16 @@ img {
     padding: 5px 0 15px;
 }
 /* Deals page */
+
 /* Prices section */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
 tr {
     font-size: 75%;
-    font-weight: 600;
+    font-weight: 700;
    }
 
    th, td {
@@ -126,7 +132,12 @@ tr {
 }
 .table-color {
     background-color: rgb(206, 142, 243);
+    }
+
+.table-color ~ td {
+    text-align: center;
 }
+
 /* Bookings page */
   /* Form */
 #form-background {
