@@ -152,6 +152,7 @@ tr {
 .text-input {
     margin: 5px 0 10px 5px;
     padding: 2px 0 2px 2px;
+    width: 80vw;
   }
 
 .select-label {
@@ -256,6 +257,26 @@ footer {
     }
 
 /* NOTE Need to adjust all section elements for tablets and larger screens */
+
+/* Bookings page */
+main {
+    background-color: rgb(206, 142, 243);
+}
+
+#form-background {
+    background-color: gainsboro;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 20px;
+}
+
+.text-input{
+    width: 40vw;
+}
+
+.select-input {
+    width: 40vw;
+}
 /* Footer */
     #social-networks i {
         font-size: 140%;
@@ -276,6 +297,11 @@ footer {
     height: 560px;
 }
 /* NOTE - need to adjust navigation text width for large devices */
+
+/* Bookings section */
+.text-input {
+    display: block;
+}
 
 }
     
