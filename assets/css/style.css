@@ -103,10 +103,16 @@ tr {
    }
 
    th, td {
-       border: 1px solid black;
-       padding: 5px;
+    border: 1px solid black;
+    padding: 5px;
    }
 
+#no-border {
+    border: none;
+}
+.table-color {
+    background-color: rgb(206, 142, 243);
+}
 /* Bookings page */
   /* Form */
 #form-background {
