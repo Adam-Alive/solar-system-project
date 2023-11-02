@@ -150,7 +150,8 @@ tr {
     }
 
 .text-input {
-    margin: 5px 0 10px 5px;    
+    margin: 5px 0 10px 5px;
+    padding: 2px 0 2px 2px;
   }
 
 .select-label {
@@ -160,7 +161,7 @@ tr {
 }
 
 .select-div {    
-    margin: 5px 0 10px 5px;
+    margin: 5px 0 10px 5px;         
 }
 
 .select-input {
@@ -168,6 +169,12 @@ tr {
         display: flex;
         flex-wrap: wrap;
         margin: 5px 0 10px 5px;
+        padding: 2px 0px 2px 2px;
+}
+
+#comments {
+    padding: 3px 0px 0px 3px;
+    font-size: 1.1em;
 }
 
 .form-submit {
