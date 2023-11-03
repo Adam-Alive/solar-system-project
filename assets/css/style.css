@@ -303,12 +303,9 @@ footer {
     }
 
     /* Company info */
-    #company-info {
-        position: relative;
 
 
     }
-}
 
 /* Large devices (laptops and desktops 992px and higher) */
 @media screen and (min-width: 992px) {
@@ -322,10 +319,24 @@ footer {
     #hero {
         height: 560px;
     }
-
+    
        /* Bookings section */
     .text-input {
         display: block;
+    }
+
+
+}
+
+
+/* Large desktops 1200px and higher */
+@media screen and (min-width: 1200px) {
+    
+/* Images */
+    img {
+        height: 30%;
+        width: 30%;
+
     }
 
 }
