@@ -119,7 +119,7 @@ table {
 }
 
 tr {
-    font-size: 75%;
+    font-size: .75em;
     font-weight: 700;
 }
 
@@ -282,8 +282,10 @@ footer {
         width: 55%;
     }
 
-    /* Home page */
-    
+    /* Deals page */
+    tr {
+        font-size: .85em;
+    }
 
     /* Bookings page */
 
@@ -317,7 +319,7 @@ footer {
 
     /* General styles */
     section p {
-        font-size: .9em;
+        font-size: 1em;
         }
 
     /* Header */
@@ -333,6 +335,11 @@ footer {
     .section-content {
         margin-left: 20%;
         margin-right: 20%
+}
+
+/* Deals page */
+tr {
+    font-size: .9em;
 }
 
        /* Bookings section */
