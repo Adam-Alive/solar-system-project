@@ -362,12 +362,13 @@ tr {
     /* Footer */
     #contact {
         position: relative;
-        left: 180px;
+        left: 18.6%;
+       
     }
        
     #company-info {
         position: relative;
-        left: 575px;
+        left: 59.5%;
         bottom: 95px;
  }
 
