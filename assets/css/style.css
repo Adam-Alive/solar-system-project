@@ -226,6 +226,10 @@ footer {
     font-weight: 600;
 }
 
+#contact-us {
+    font-weight: 800;
+}
+
 #company-info {
     padding: .5rem 0;
     font-size: 72%;
@@ -314,6 +318,10 @@ footer {
     }
 
     /* Company info */
+    #company-info{
+        position: relative;
+        left: 
+    }
 
 
     }
