@@ -88,7 +88,7 @@ header a {
 }
 
 #hero-text {
-    color: white;
+    color: #ffffff;
     font-size: 0.6em;
     background-color: rgba(192, 107, 241, 0.6);
     padding: 4px;
@@ -153,7 +153,6 @@ td {
     margin: 5px 0 10px 5px;
     padding: 2px 0 2px 2px;
     width: 80vw;
-    color: red;
 }
 
 .select-label {
@@ -182,7 +181,7 @@ td {
 .form-submit {
     background-color: rgb(206, 142, 243);
     margin-top: 20px;
-    font-size: 0.8em;
+    font-size: .8em;
     font-weight: 600;
     padding: 8px 18px;
     border-radius: 4px;
