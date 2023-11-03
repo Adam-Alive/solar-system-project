@@ -222,7 +222,7 @@ footer {
 /* Company contact */
 #contact {
     padding: .5rem 0;
-    font-size: 72%;
+    font-size: .72em;
     font-weight: 600;
 }
 
@@ -232,13 +232,13 @@ footer {
 
 #company-info {
     padding: .5rem 0;
-    font-size: 72%;
+    font-size: .72em;
     font-weight: 600;
 }
 
 #copyright {
     padding: .5rem 0;
-    font-size: 72%;
+    font-size: .72em;
     font-weight: 600;
 }
 
@@ -318,6 +318,10 @@ footer {
     }
 
     /* Company info */
+    #contact, #company-info, #copyright {
+        font-size: .9em;
+    }
+
     #company-info{
         position: relative;
         left: 
