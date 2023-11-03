@@ -11,8 +11,33 @@
 /* General styles */
 body {
     min-height: 100vh;
-    /* Need to confirm text colour */
     font-family: 'Montserrat', sans-serif;
+}
+
+h3, h4 {
+    padding: 0 0 10px;
+}
+
+section {
+    padding: 20px 20px 0px;
+}
+
+p {
+    line-height: 1.8em;
+    font-weight: 600;
+}
+
+section p {
+    font-size: .8em;
+    padding: 0 0 10px 0;
+}
+
+.section-last-p {
+    padding: 0;
+}
+
+#section-last-image-div {
+    padding: 0;
 }
 
 /* Header */
@@ -54,11 +79,6 @@ main {
     flex: 1 0 auto;
 }
 
-h3, h4 {
-    padding: 0 0 10px;
-    }
-
-
 /* Hero section */
 #hero {
     height: 160px;
@@ -76,29 +96,7 @@ h3, h4 {
     letter-spacing: 1px;
 }
 
-section {
-    padding: 20px 20px 0px;
-}
-
-p {
-    line-height: 1.8em;
-    font-weight: 600;
-}
-
-section p {
-    font-size: .8em;
-    padding: 0 0 10px 0;
-}
-
-.section-last-p {
-    padding: 0;
-}
-
-#section-last-image-div {
-    padding: 0;
-}
-
-/* Cruises Intro section */
+/* Home page */
 img {
     height: 75%;
     width: 80%;
