@@ -278,7 +278,7 @@ footer {
     }
 
     /* Home page */
-
+    
 
     /* Bookings page */
 
@@ -314,7 +314,7 @@ footer {
     section p {
         font-size: .9em;
         color: red;
-        /* Using red to see chaanges on screen  */
+        /* Using red to see changes on screen  */
     }
 
     /* Header */
@@ -326,7 +326,12 @@ footer {
     #hero {
         height: 560px;
     }
-    
+    /* Home page  */
+    .section-content {
+        margin-left: 20%;
+        margin-right: 20%
+}
+
        /* Bookings section */
     .text-input {
         display: block;
