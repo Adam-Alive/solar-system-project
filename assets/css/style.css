@@ -1,7 +1,7 @@
 /* Import Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/* Wildcard slector to override browser default styles  */
+/* Wildcard selector to override browser default styles  */
 * {
     padding: 0;
     margin: 0;
@@ -40,6 +40,12 @@ section p {
     padding: 0;
 }
 
+main {
+    /* Ensure main content takes up any surplus space to push footer down */
+    padding-top: 79px;
+    flex: 1 0 auto;
+}
+
 /* Header */
 header {
     background-color: rgb(206, 142, 243);
@@ -72,13 +78,6 @@ header a {
     border-bottom: 1px solid;
 }
 
-/* Main content */
-main {
-    /* Ensure main content takes up any surplus space to push footer down */
-    padding-top: 79px;
-    flex: 1 0 auto;
-}
-
 /* Hero section */
 #hero {
     height: 160px;
@@ -99,7 +98,7 @@ main {
 /* Home page */
 img {
     height: 75%;
-    width: 80%;
+    width: 75%;
 }
 
 .image-div {
@@ -113,7 +112,6 @@ img {
 }
 
 /* Deals page */
-
 /* Prices section */
 table {
     width: 100%;
@@ -273,6 +271,12 @@ footer {
         font-size: .8em;
     }
 
+    /* Images */
+    img {
+        height: 55%;
+        width: 55%;
+    }
+
     /* Home page */
 
 
@@ -319,9 +323,7 @@ footer {
         height: 560px;
     }
 
-    /* NOTE - need to adjust navigation text width for large devices */
-
-    /* Bookings section */
+       /* Bookings section */
     .text-input {
         display: block;
     }
