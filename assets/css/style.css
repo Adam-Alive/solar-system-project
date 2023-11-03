@@ -108,7 +108,7 @@ img {
 }
 
 .bookings-link {
-    color: blueviolet;
+    color: rgb(10, 10, 250);
     text-decoration: none;
 }
 
@@ -153,6 +153,7 @@ td {
     margin: 5px 0 10px 5px;
     padding: 2px 0 2px 2px;
     width: 80vw;
+    color: red;
 }
 
 .select-label {
