@@ -201,6 +201,7 @@ th, td {
 footer {
     background-color: rgb(206, 142, 243);
     padding: .75rem;
+
 }
 
 /* Footer */
@@ -359,6 +360,10 @@ tr {
     }
 
     /* Footer */
+
+    footer {
+        
+    }
     #contact {
         position: relative;
         left: 18.6%;
