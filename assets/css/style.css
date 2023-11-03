@@ -318,6 +318,11 @@ footer {
 @media screen and (min-width: 992px) {
 
     /* General styles */
+    .section-content {
+            margin-left: 20%;
+            margin-right: 20%
+        }
+     
     section p {
         font-size: 1em;
         }
@@ -329,14 +334,10 @@ footer {
 
     /* Hero section */
     #hero {
-        height: 400px;
+        height: 300px;
     }
     /* Home page  */
-    .section-content {
-        margin-left: 20%;
-        margin-right: 20%
-}
-
+    
 /* Deals page */
 tr {
     font-size: .9em;
@@ -353,10 +354,12 @@ tr {
 @media screen and (min-width: 1200px) {
     
 /* Images */
-    /* img {
-        height: 30%;
-        width: 30%;
 
-    } */
+/* Hero section */
+    #hero {
+        height: 400px;
+    }
+
+
 
 }
