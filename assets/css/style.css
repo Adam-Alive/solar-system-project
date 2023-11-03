@@ -258,6 +258,10 @@ footer {
     }
 
     /* General styles */
+    .section-content {
+        text-align: justify;
+    }
+    
     section p {
         font-size: .9em;
         }
@@ -320,8 +324,8 @@ footer {
     /* General styles */
     .section-content {
             margin-left: 20%;
-            margin-right: 20%
-        }
+            margin-right: 20%;
+            }
      
     section p {
         font-size: 1em;
