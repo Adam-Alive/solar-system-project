@@ -322,13 +322,8 @@ footer {
         font-size: .9em;
     }
 
-    #company-info{
-        position: relative;
-        left: 
-    }
-
-
-    }
+   
+}
 
 /* Large devices (laptops and desktops 992px and higher) */
 @media screen and (min-width: 992px) {
@@ -363,6 +358,25 @@ tr {
     .text-input {
         display: block;
     }
+
+    /* Footer */
+    #contact {
+        position: relative;
+        left: 180px;
+    }
+       
+    #company-info {
+        position: relative;
+        left: 575px;
+        bottom: 95px;
+ }
+
+    #copyright {
+        position: relative;
+        text-align: center;
+        bottom: 80px;
+    }
+
 
 }
 
