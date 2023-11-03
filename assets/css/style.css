@@ -123,8 +123,7 @@ tr {
     font-weight: 700;
 }
 
-th,
-td {
+th, td {
     border: 1px solid black;
     padding: 5px;
 }
