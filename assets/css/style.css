@@ -202,6 +202,7 @@ td {
     padding: 8px 18px;
     border-radius: 4px;
     display: block;
+    cursor: pointer;
 }
 
 /* Footer */
