@@ -310,6 +310,13 @@ footer {
 /* Large devices (laptops and desktops 992px and higher) */
 @media screen and (min-width: 992px) {
 
+    /* General styles */
+    section p {
+        font-size: .9em;
+        color: red;
+        /* Using red to see chaanges on screen  */
+    }
+
     /* Header */
     #menu a:hover {
         border-bottom: 1px solid;
@@ -325,18 +332,16 @@ footer {
         display: block;
     }
 
-
 }
-
 
 /* Large desktops 1200px and higher */
 @media screen and (min-width: 1200px) {
     
 /* Images */
-    img {
+    /* img {
         height: 30%;
         width: 30%;
 
-    }
+    } */
 
 }
