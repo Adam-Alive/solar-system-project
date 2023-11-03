@@ -381,7 +381,6 @@ footer {
         position: relative;
         text-align: center;
         bottom: 80px;
-        git
     }
 }
 
@@ -391,6 +390,6 @@ footer {
 
     /* Hero section */
     #hero {
-        height: 400px;
+        height: 460px;
     }
 }
