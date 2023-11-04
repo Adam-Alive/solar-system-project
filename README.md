@@ -30,6 +30,12 @@ This website markets the travel services of Solar System Cruises, the leading pr
 
 #### Bookings page
 
+- This page contains a form for the user to submit a booking enquiry.
+- Categories include name, email and phone number, along with no. passengers, crusie type and departure location etc.
+- The user can also submit additional questions and comments.
+- Once submitted, a confirmation page is then shown.
+  ![Bookings page](/assets/media/bookings.png)
+
 #### Confirmation message
 
 ## Testing
