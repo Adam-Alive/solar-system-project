@@ -7,7 +7,10 @@ This website markets the travel services of Solar System Cruises, the leading pr
 ## Features
 
 #### Header, Navigation Bar and Hero Image
-
+- The Header contains the logo, Solar System Cruises, clearly shown in the centre, which also links to the home page.
+- The navigation bar shows the three pages of Home, Deals and Bookings and each shows as 'active' when the page is current.
+- The hero image is bold and colourful and gives a clear indication as to the content of the site, with the slogan "Out of this world experiences since 2125" supporting the company's message and product.
+  
 ![Header, Navigation bar and Hero image](/assets/media/header-nav-hero.png)
 
 #### Home page
