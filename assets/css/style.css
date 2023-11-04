@@ -178,7 +178,8 @@ td {
 }
 
 .form-submit {
-    background-color: rgb(206, 142, 243);
+    background-color: #000000;
+    color: #ffffff;
     margin-top: 20px;
     font-size: 0.8em;
     font-weight: 600;
@@ -188,7 +189,7 @@ td {
 }
 
 .form-submit:hover {
-    background-color: aqua;
+    background-color: rgb(206, 142, 243);
     margin-top: 20px;
     font-size: 0.8em;
     font-weight: 600;
