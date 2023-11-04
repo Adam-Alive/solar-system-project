@@ -40,7 +40,13 @@ This website markets the travel services of Solar System Cruises, the leading pr
 
 ## Testing
 
+- I have tested the site on Chrome, Firefox and Safari and it works successfully.
+- Throughout the coding process I have tested the site for responsiveness on various devices using the Chrome dev tools device function. I have also tested the site on my own mobile phone, laptop and desktop.
+- I have confirmed that the bookings form works succesfully ie. it requires an entry in each field, will only accept an email in the email field and the submit button functions.
+
 ### Bugs
+
+- None to report.
 
 ### Validator Testing
 
@@ -50,7 +56,13 @@ This website markets the travel services of Solar System Cruises, the leading pr
 
 #### Accessibility
 
+- The site has been tested using Lighthouse in Chrome dev tools and has been confirmed as accessible.
+
+![Lighthouse report](/assets/media/accessibility.png)
+
 ### Unfixed Bugs
+
+- None to report.
 
 ## Deployment
 
@@ -58,10 +70,10 @@ This website markets the travel services of Solar System Cruises, the leading pr
 
 ### Content
 
-All words my own with factual information about the solar system and planets sourced from [NASA](https://science.nasa.gov/solar-system/planets/) and [Wikepedia](https://en.wikipedia.org/wiki/Solar_System) websites.
+All words my own with factual information about the solar system and planets sourced from [NASA](https://science.nasa.gov/solar-system/planets/) and [Wikepedia](https://en.wikipedia.org/wiki/Solar_System).
 
-Code for the social media links was adapted from Code Insitute's 'Love Running Project' using square icons from Font Awesome.
+Code for the social media links was adapted from [Code Insitute](https://codeinstitute.net/)'s 'Love Running Project' and using square icons from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
-All images Copyright Shutterstock.
+All images copyright [Shutterstock.](https://www.shutterstock.com/)
