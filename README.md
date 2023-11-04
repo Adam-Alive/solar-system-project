@@ -42,7 +42,7 @@ This website markets the travel services of Solar System Cruises, the leading pr
 
 - I have tested the site on Chrome, Firefox and Safari and it works successfully.
 - Throughout the coding process I have tested the site for responsiveness on various devices using the Chrome dev tools device function. I have also tested the site on my own mobile phone, laptop and desktop.
-- I have confirmed that the bookings form works succesfully ie. it requires an entry in each field, will only accept an email in the email field and the submit button functions.
+- I have confirmed that the bookings form works succesfully ie. it requires an entry in each field, will only accept an email in the email field and the submit button works fine.
 
 ### Bugs
 
@@ -65,6 +65,10 @@ This website markets the travel services of Solar System Cruises, the leading pr
 - None to report.
 
 ## Deployment
+
+- The site is deployed to GitHub, please see links below:
+- [GitHub](https://github.com/Adam-Alive/solar-system-project)
+- [Public Site](https://adam-alive.github.io/solar-system-project/index.html)
 
 ## Credits
 
