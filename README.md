@@ -10,7 +10,7 @@ This website markets the travel services of Solar System Cruises, the leading pr
 
 #### Header and Hero Image
 
-/assets/media/header-and-hero.png
+![Header, Navigation bar and Hero image](/assets/media/header-nav-hero.png)
 
 #### Home page
 
