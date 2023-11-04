@@ -149,7 +149,7 @@ td {
 }
 
 .text-input {
-    margin: 5px 0 10px 5px;
+    margin: 5px 0 10px 10px;
     padding: 2px 0 2px 2px;
     width: 80vw;
 }
@@ -175,6 +175,7 @@ td {
 #comments {
     padding: 3px 0px 0px 3px;
     font-size: 1.1em;
+    margin: 0 0 0 10px;
 }
 
 .form-submit {
