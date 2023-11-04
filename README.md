@@ -54,7 +54,11 @@ This website markets the travel services of Solar System Cruises, the leading pr
 
 #### HTML
 
+- No errors were returned when passing through the official [W3C HTML validator](https://validator.w3.org/#validate_by_input)
+
 #### CSS
+
+- No errors were found when passing through the official [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator)
 
 #### Accessibility
 
