@@ -3,392 +3,399 @@
 
 /* Wildcard selector to override browser default styles  */
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 /* General styles */
 body {
-  min-height: 100vh;
-  font-family: "Montserrat", sans-serif;
+    min-height: 100vh;
+    font-family: "Montserrat", sans-serif;
 }
 
 h3,
 h4 {
-  padding: 0 0 10px;
+    padding: 0 0 10px;
 }
 
 section {
-  padding: 20px 20px 0px;
+    padding: 20px 20px 0px;
 }
 
 p {
-  line-height: 1.8em;
-  font-weight: 600;
+    line-height: 1.8em;
+    font-weight: 600;
 }
 
 section p {
-  font-size: 0.8em;
-  padding: 0 0 10px 0;
+    font-size: 0.8em;
+    padding: 0 0 10px 0;
 }
 
 .section-last-p {
-  padding: 0;
+    padding: 0;
 }
 
 #section-last-image-div {
-  padding: 0;
+    padding: 0;
 }
 
 main {
-  /* Ensure main content takes up any surplus space to push footer down */
-  padding-top: 79px;
-  flex: 1 0 auto;
+    /* Ensure main content takes up any surplus space to push footer down */
+    padding-top: 79px;
+    flex: 1 0 auto;
 }
 
 /* Header */
 header {
-  background-color: rgb(206, 142, 243);
-  padding: 0.75rem;
-  position: fixed;
-  z-index: 99;
-  width: 100%;
+    background-color: rgb(206, 142, 243);
+    padding: 0.75rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
 }
 
 header a {
-  text-decoration: none;
-  color: inherit;
+    text-decoration: none;
+    color: inherit;
 }
 
 #logo-wrapper {
-  font-size: 0.81em;
-  text-align: center;
-  padding: 0 0 0.75rem;
+    font-size: 0.81em;
+    text-align: center;
+    padding: 0 0 0.75rem;
 }
 
 #menu {
-  font-size: 72%;
-  font-weight: 600;
-  display: flex;
-  justify-content: space-evenly;
-  list-style-type: none;
+    font-size: 72%;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
 
 .active {
-  border-bottom: 1px solid;
+    border-bottom: 1px solid;
 }
 
 /* Hero section */
 #hero {
-  height: 160px;
-  width: 100%;
-  background: url("../images/hero-image-m.webp") no-repeat center center/cover;
-  padding: 0;
+    height: 160px;
+    width: 100%;
+    background: url("../images/hero-image-m.webp") no-repeat center center/cover;
+    padding: 0;
 }
 
 #hero-text {
-  color: #ffffff;
-  font-size: 0.6em;
-  background-color: rgba(192, 107, 241, 0.6);
-  padding: 4px;
-  text-align: center;
-  letter-spacing: 1px;
+    color: #ffffff;
+    font-size: 0.6em;
+    background-color: rgba(192, 107, 241, 0.6);
+    padding: 4px;
+    text-align: center;
+    letter-spacing: 1px;
 }
 
 /* Home page */
 img {
-  height: 75%;
-  width: 75%;
+    height: 75%;
+    width: 75%;
 }
 
 .image-div {
-  text-align: center;
-  padding: 5px 0 15px;
+    text-align: center;
+    padding: 5px 0 15px;
 }
 
 .bookings-link {
-  color: rgb(163, 32, 240);
+    color: rgb(163, 32, 240);
 }
 
 /* Deals page */
 /* Prices section */
 table {
-  width: 100%;
-  border-collapse: collapse;
+    width: 100%;
+    border-collapse: collapse;
 }
 
 tr {
-  font-size: 0.75em;
-  font-weight: 700;
+    font-size: 0.75em;
+    font-weight: 700;
 }
 
 th,
 td {
-  border: 1px solid black;
-  padding: 5px;
+    border: 1px solid black;
+    padding: 5px;
 }
 
 #no-border {
-  border: none;
+    border: none;
 }
 
 .table-color {
-  background-color: rgb(206, 142, 243);
+    background-color: rgb(206, 142, 243);
 }
 
-.table-color ~ td {
-  text-align: center;
+.table-color~td {
+    text-align: center;
 }
 
 /* Bookings page */
 /* Form */
 #form-background {
-  background-color: gainsboro;
-  padding: 20px;
+    background-color: gainsboro;
+    padding: 20px;
 }
 
 .text-input {
-  margin: 5px 0 10px 10px;
-  padding: 2px 0 2px 5px;
-  width: 80vw;
+    margin: 5px 0 10px 10px;
+    padding: 2px 0 2px 5px;
+    width: 80vw;
 }
 
 .select-label {
-  font-size: 0.8em;
-  font-weight: 600;
-  margin: 5px 0 25px 5px;
+    font-size: 0.8em;
+    font-weight: 600;
+    margin: 5px 0 25px 5px;
 }
 
 .select-div {
-  margin: 5px 0 10px 5px;
+    margin: 5px 0 10px 5px;
 }
 
 .select-input {
-  font-size: 0.8em;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 5px 0 10px 5px;
-  padding: 2px 0px 2px 2px;
+    font-size: 0.8em;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 0 10px 5px;
+    padding: 2px 0px 2px 2px;
 }
 
 #comments {
-  padding: 3px 0px 0px 3px;
-  font-size: 1.1em;
-  margin: 0 0 0 10px;
+    padding: 3px 0px 0px 3px;
+    font-size: 1.1em;
+    margin: 0 0 0 10px;
 }
 
 .form-submit {
-  background-color: #000000;
-  color: #ffffff;
-  margin-top: 20px;
-  margin-left: 11px;
-  font-size: 0.8em;
-  font-weight: 600;
-  padding: 8px 18px;
-  border-radius: 4px;
-  display: block;
+    background-color: #000000;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-left: 11px;
+    font-size: 0.8em;
+    font-weight: 600;
+    padding: 8px 18px;
+    border-radius: 4px;
+    display: block;
 }
 
 .form-submit:hover {
-  background-color: rgb(206, 142, 243);
-  margin-top: 20px;
-  font-size: 0.8em;
-  font-weight: 600;
-  padding: 8px 18px;
-  border-radius: 4px;
-  display: block;
-  cursor: pointer;
+    background-color: rgb(206, 142, 243);
+    margin-top: 20px;
+    font-size: 0.8em;
+    font-weight: 600;
+    padding: 8px 18px;
+    border-radius: 4px;
+    display: block;
+    cursor: pointer;
 }
 
 /* Footer */
 footer {
-  background-color: rgb(206, 142, 243);
-  padding: 0.75rem;
+    background-color: rgb(206, 142, 243);
+    padding: 0.75rem;
 }
 
 /* Footer */
 #social-networks {
-  text-align: center;
-  padding: 10px 0;
-  display: flex;
-  justify-content: space-evenly;
-  list-style-type: none;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
 
 #social-networks i {
-  font-size: 120%;
-  padding: 5%;
-  color: #000000;
+    font-size: 120%;
+    padding: 5%;
+    color: #000000;
 }
 
 /* Company contact */
 #contact {
-  padding: 0.5rem 0;
-  font-size: 0.72em;
-  font-weight: 600;
+    padding: 0.5rem 0;
+    font-size: 0.72em;
+    font-weight: 600;
 }
 
 #contact-us {
-  font-weight: 800;
+    font-weight: 800;
 }
 
 #company-info {
-  padding: 0.5rem 0;
-  font-size: 0.72em;
-  font-weight: 600;
+    padding: 0.5rem 0;
+    font-size: 0.72em;
+    font-weight: 600;
 }
 
 #copyright {
-  padding: 0.5rem 0;
-  font-size: 0.72em;
-  font-weight: 600;
+    padding: 0.5rem 0;
+    font-size: 0.72em;
+    font-weight: 600;
 }
 
 /* Media Queries */
 
 /* Tablets and larger (768px and higher) */
 @media screen and (min-width: 768px) {
-  /* Header */
-  #logo-wrapper {
-    font-size: 100%;
-    text-align: center;
-    padding: 0 0 0.75rem;
-  }
 
-  #menu {
-    font-size: 100%;
-    font-weight: 600;
-    display: flex;
-    justify-content: space-evenly;
-  }
+    /* Header */
+    #logo-wrapper {
+        font-size: 100%;
+        text-align: center;
+        padding: 0 0 0.75rem;
+    }
 
-  /* General styles */
-  .section-content {
-    text-align: justify;
-  }
+    #menu {
+        font-size: 100%;
+        font-weight: 600;
+        display: flex;
+        justify-content: space-evenly;
+    }
 
-  section p {
-    font-size: 0.9em;
-  }
+    /* General styles */
+    .section-content {
+        text-align: justify;
+    }
 
-  /* Main content */
-  main {
-    padding-top: 94px;
-  }
+    section p {
+        font-size: 0.9em;
+    }
 
-  /* Hero section */
-  #hero {
-    height: 250px;
-  }
+    /* Main content */
+    main {
+        padding-top: 94px;
+    }
 
-  #hero-text {
-    font-size: 0.8em;
-  }
+    /* Hero section */
+    #hero {
+        height: 250px;
+    }
 
-  /* Images */
-  img {
-    height: 55%;
-    width: 55%;
-  }
+    #hero-text {
+        font-size: 0.8em;
+    }
 
-  /* Deals page */
-  tr {
-    font-size: 0.85em;
-  }
+    /* Images */
+    img {
+        height: 55%;
+        width: 55%;
+    }
 
-  /* Bookings page */
-  #form-background {
-    background-color: gainsboro;
-    margin-left: 25%;
-    margin-right: 25%;
-    padding: 20px;
-  }
+    /* Deals page */
+    tr {
+        font-size: 0.85em;
+    }
 
-  .text-input {
-    width: 40vw;
-  }
+    /* Bookings page */
+    #form-background {
+        background-color: gainsboro;
+        margin-left: 25%;
+        margin-right: 25%;
+        padding: 20px;
+    }
 
-  .select-input {
-    width: 40vw;
-  }
+    .text-input {
+        width: 40vw;
+    }
 
-  #social-networks i {
-    font-size: 140%;
-  }
+    .select-input {
+        width: 40vw;
+    }
 
-  /* Company info */
-  #contact,
-  #company-info,
-  #copyright {
-    font-size: 0.9em;
-  }
+    #social-networks i {
+        font-size: 140%;
+    }
+
+    /* Company info */
+    #contact,
+    #company-info,
+    #copyright {
+        font-size: 0.9em;
+    }
 }
 
 /* Large devices (laptops and desktops 992px and higher) */
 @media screen and (min-width: 992px) {
-  /* General styles */
-  .section-content {
-    margin-left: 20%;
-    margin-right: 20%;
-  }
 
-  section p {
-    font-size: 1em;
-  }
+    /* General styles */
+    .section-content {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
 
-  /* Header */
-  #menu a:hover {
-    border-bottom: 1px solid;
-  }
+    section p {
+        font-size: 1em;
+    }
 
-  /* Hero section */
-  #hero {
-    height: 300px;
-  }
+    /* Header */
+    #menu a:hover {
+        border-bottom: 1px solid;
+    }
 
-  /* Deals page */
-  tr {
-    font-size: 0.9em;
-  }
+    /* Hero section */
+    #hero {
+        height: 300px;
+    }
 
-  /* Bookings page */
-  .text-input {
-    display: block;
-    padding: 10px 0 10px 5px;
-  }
+    /* Footer */
+    footer {
+        max-height: 212px;
+    }
 
-  .select-input {
-    padding: 10px 0 10px 2px;
-  }
+    /* Deals page */
+    tr {
+        font-size: 0.9em;
+    }
 
-  #contact {
-    position: relative;
-    width: 50%;
-    text-align: center;
-  }
+    /* Bookings page */
+    .text-input {
+        display: block;
+        padding: 10px 0 10px 5px;
+    }
 
-  #company-info {
-    position: relative;
-    left: 50%;
-    width: 50%;
-    text-align: center;
-    bottom: 95px;
-  }
+    .select-input {
+        padding: 10px 0 10px 2px;
+    }
 
-  #copyright {
-    position: relative;
-    text-align: center;
-    bottom: 80px;
-  }
+    #contact {
+        position: relative;
+        width: 50%;
+        text-align: center;
+    }
+
+    #company-info {
+        position: relative;
+        left: 50%;
+        width: 50%;
+        text-align: center;
+        bottom: 95px;
+    }
+
+    #copyright {
+        position: relative;
+        text-align: center;
+        bottom: 80px;
+    }
 }
 
 /* Large desktops 1200px and higher */
 @media screen and (min-width: 1200px) {
-  /* Images */
+    /* Images */
 
-  /* Hero section */
-  #hero {
-    height: 460px;
-  }
+    /* Hero section */
+    #hero {
+        height: 460px;
+    }
 }
