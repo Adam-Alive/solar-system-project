@@ -6,9 +6,7 @@ This website markets the travel services of Solar System Cruises, the leading pr
 
 ## Features
 
-#### Navigation
-
-#### Header and Hero Image
+#### Header, Navigation Bar and Hero Image
 
 ![Header, Navigation bar and Hero image](/assets/media/header-nav-hero.png)
 
